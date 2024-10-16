@@ -1,0 +1,24 @@
+<!-- res/layout/custom_tab.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/tab_home"
+        app:tint="@drawable/tab_icon_color_selector"/>
+    <!-- Set a default image -->
+
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:visibility="gone"
+        android:textColor="@color/black" />
+</LinearLayout>
